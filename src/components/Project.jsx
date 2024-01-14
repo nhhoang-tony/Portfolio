@@ -21,7 +21,7 @@ export default function Project({ project, classes }) {
         <div className='h-[35vh] overflow-hidden'>
           <img
             className='w-full h-[35vh] object-cover hover:scale-[1.07] transition-transform ease duration-500'
-            src={`../../public/static/img/${project.portfolioPhoto}`}
+            src={`/static/img/${project.portfolioPhoto}`}
           ></img>
         </div>
 

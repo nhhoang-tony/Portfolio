@@ -35,7 +35,7 @@ function ProjectDetailsPage() {
         <div className='flex flex-wrap mx-auto pb-12 px-4 overflow-y-scroll w-full max-w-7xl'>
           <div className={`pt-14 ${projectClasses}`}>
             <img
-              src={`../../public/static/img/${currentProject.detailPhoto}`}
+              src={`/static/img/${currentProject.detailPhoto}`}
             ></img>
           </div>
 
