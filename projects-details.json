@@ -111,6 +111,31 @@
     ]
   },
   {
+    "id": "latteArts",
+    "portfolioName": "Latte Arts",
+    "detailName": "Latte Arts Gallery",
+    "portfolioDescription": "A personal gallery of latte arts",
+    "detailDescription1": "A personal gallery of all the latte arts that I made.",
+    "portfolioPhoto": "latte-arts-portfolio.jpg",
+    "detailPhoto": "latte-arts-detail.jpg",
+    "viewLink": "https://lattearts.tonynguyen61.com",
+    "repoLink": "https://github.com/nhhoang-tony/latte-arts",
+    "technology": [
+      { "Platform": "Web application" },
+      { "Cloud services": "Vercel" },
+      { "Languages": "JavaScript" },
+      { "Framework": "React" },
+      { "CSS": "Tailwind" },
+      { "Architecture": "Serverless" }
+    ],
+    "features": [
+      "Gallery of beautiful latte arts",
+      "Select and filter different types of latte arts to view",
+      "Click on each photo or video for a closer view",
+      "Close-up videos of free pouring latte arts"
+    ]
+  },
+  {
     "id": "resume",
     "portfolioName": "Cloud Resume",
     "detailName": "Cloud Resume",
