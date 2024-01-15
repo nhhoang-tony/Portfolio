@@ -118,8 +118,8 @@
     "detailDescription1": "A personal gallery of all the latte arts that I made.",
     "portfolioPhoto": "latte-arts-portfolio.jpg",
     "detailPhoto": "latte-arts-detail.jpg",
-    "viewLink": "https://lattearts.tonynguyen61.com",
-    "repoLink": "https://github.com/nhhoang-tony/latte-arts",
+    "viewLink": "https://latteart.tonynguyen61.com",
+    "repoLink": "https://github.com/nhhoang-tony/latte-art",
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "Vercel" },
