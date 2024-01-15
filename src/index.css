@@ -23,33 +23,8 @@ body {
   font-family: 'Bricolage Grotesque', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(
-      circle at top,
-      rgba(9, 23, 18, 0.98),
-      rgba(9, 23, 18, 0.98)
-    ),
-    url('/static/img/cup-of-coffee.png');
-  background-size: 300px;
-  background-repeat: repeat;
+  background-color: #1f1c2c;
   color: #d9e2f1;
   min-height: 100vh;
   height: 100vh;
-}
-
-.animation {
-  animation: pop 0.5s cubic-bezier(0.68, -0.55, 0.65, 0.52) forwards;
-}
-
-@keyframes pop {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  80% {
-    transform: scale(1.1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
 }
