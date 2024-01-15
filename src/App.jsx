@@ -1,48 +1,13 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import PortfolioPage from './pages/Portfolio';
-import RootLayout from './pages/Root';
-import ErrorPage from './pages/Error';
-import ProjectDetailsPage from './pages/ProjectDetails';
-import ContactsPage from './pages/Contacts';
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <RootLayout></RootLayout>,
-    errorElement: <ErrorPage></ErrorPage>,
-    children: [
-      {
-        index: true,
-        element: <PortfolioPage></PortfolioPage>,
-      },
-      {
-        path: 'project',
-        children: [
-          {
-            index: true,
-            element: <ProjectDetailsPage></ProjectDetailsPage>,
-          },
-          {
-            path: ':projectId',
-            children: [
-              {
-                index: true,
-                element: <ProjectDetailsPage></ProjectDetailsPage>,
-              },
-            ],
-          },
-        ],
-      },
-      {
-        path: 'contacts',
-        element: <ContactsPage></ContactsPage>,
-      },
-    ],
-  },
-]);
+import Header from './components/Header';
+import Gallery from './components/Gallery';
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <main>
+      <Header></Header>
+      <Gallery></Gallery>
+    </main>
+  );
 }
 
 export default App;
