@@ -36,6 +36,7 @@ function ProjectDetailsPage() {
           <div className={`pt-14 ${projectClasses}`}>
             <img
               src={`/static/img/${currentProject.detailPhoto}`}
+              loading='lazy'
             ></img>
           </div>
 
@@ -90,7 +91,11 @@ function ProjectDetailsPage() {
                   rel='noopener noreferrer'
                 >
                   <Button className='mr-8 bg-white h-16 w-32 md:w-36 text-2xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] transition-colors ease duration-200'>
-                    <img className='h-16 w-32 md:w-36' src={appStoreImg} />
+                    <img
+                      className='h-16 w-32 md:w-36'
+                      src={appStoreImg}
+                      loading='lazy'
+                    />
                   </Button>
                 </Link>
                 <Link
@@ -99,7 +104,11 @@ function ProjectDetailsPage() {
                   rel='noopener noreferrer'
                 >
                   <Button className='bg-white h-16 w-32 md:w-36 text-2xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] transition-colors ease duration-200'>
-                    <img className='h-16 w-32 md:w-36' src={googlePlayImg} />
+                    <img
+                      className='h-16 w-32 md:w-36'
+                      src={googlePlayImg}
+                      loading='lazy'
+                    />
                   </Button>
                 </Link>
               </div>

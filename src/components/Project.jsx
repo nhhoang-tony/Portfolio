@@ -22,6 +22,7 @@ export default function Project({ project, classes }) {
           <img
             className='w-full h-[35vh] object-cover hover:scale-[1.07] transition-transform ease duration-500'
             src={`/static/img/${project.portfolioPhoto}`}
+            loading='lazy'
           ></img>
         </div>
 

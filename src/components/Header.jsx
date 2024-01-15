@@ -30,6 +30,7 @@ export default function Header() {
           className='w-14 h-14 sm:w-16 sm:h-16 cursor-pointer'
           src={logoImg}
           onClick={navToPortfolio}
+          loading='lazy'
         ></img>
         <h1
           className='xl sm:text-2xl m-0 font-[Raleway] font-bold text-[#8feeff] tracking-wide uppercase cursor-pointer transition-colors ease duration-200 hover:text-[#406ab7]'
@@ -40,7 +41,7 @@ export default function Header() {
       </div>
       {!showHamburger && (
         <div onClick={handleHamburger} className='md:invisible cursor-pointer'>
-          <img src={hamburger} />
+          <img src={hamburger} loading='lazy' />
         </div>
       )}
       {showHamburger && (
@@ -48,7 +49,7 @@ export default function Header() {
           onClick={handleHamburger}
           className='top-4 right-0 mr-4 md:hidden absolute cursor-pointer'
         >
-          <img src={close} />
+          <img src={close} loading='lazy' />
         </div>
       )}
       <nav className={`${showHamburger ? 'md:block' : 'hidden md:block'}`}>
