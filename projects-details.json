@@ -111,11 +111,11 @@
     ]
   },
   {
-    "id": "latteArts",
-    "portfolioName": "Latte Arts",
-    "detailName": "Latte Arts Gallery",
-    "portfolioDescription": "A personal gallery of latte arts",
-    "detailDescription1": "A personal gallery of all the latte arts that I made.",
+    "id": "latteArt",
+    "portfolioName": "Latte Art",
+    "detailName": "Latte Art Gallery",
+    "portfolioDescription": "A gallery of latte art",
+    "detailDescription1": "A gallery of all the latte art that I made.",
     "portfolioPhoto": "latte-arts-portfolio.jpg",
     "detailPhoto": "latte-arts-detail.jpg",
     "viewLink": "https://latteart.tonynguyen61.com",
@@ -129,10 +129,10 @@
       { "Architecture": "Serverless" }
     ],
     "features": [
-      "Gallery of beautiful latte arts",
-      "Select and filter different types of latte arts to view",
-      "Click on each photo or video for a closer view",
-      "Close-up videos of free pouring latte arts"
+      "Gallery of beautiful latte art",
+      "Select and filter different types of latte art to view",
+      "Click on each photo or video for a focused look",
+      "Close-up videos of free pouring latte art"
     ]
   },
   {
