@@ -168,7 +168,7 @@
     "portfolioName": "Auctions",
     "detailName": "Auctions",
     "portfolioDescription": "A auctioning and bidding website",
-    "detailDescription1": "A free auctioning site where you can sell your items, and bid on other's listings",
+    "detailDescription1": "A free auctioning site where you can list your items, and bid on other's listings",
     "portfolioPhoto": "auctions-portfolio.jpg",
     "detailPhoto": "auctions-detail.jpg",
     "viewLink": "https://auctions.tonynguyen61.com",
@@ -182,10 +182,10 @@
     ],
     "features": [
       "List your items",
-      "Bid on other people's listings",
+      "Bid and comment on other people's listings",
+      "Browse through all available listings",
       "Search for your favorite items or search by category",
-      "Comments on other people's listings",
-      "Add listings to your watchlist and follow",
+      "Add listings to your watchlist and follow them",
       "View all your current biddings"
     ]
   }
