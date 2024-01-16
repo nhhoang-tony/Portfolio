@@ -90,7 +90,7 @@
     "portfolioPhoto": "social-network-portfolio.jpg",
     "detailPhoto": "social-network-detail.jpg",
     "viewLink": "https://socialnetwork.tonynguyen61.com",
-    "repoLink": "https://github.com/nhhoang-tony/cs50w_socialnetwork",
+    "repoLink": "https://github.com/nhhoang-tony/Social-network",
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "AWS" },
@@ -164,15 +164,15 @@
     ]
   },
   {
-    "id": "auctions",
-    "portfolioName": "Auctions",
-    "detailName": "Auctions",
-    "portfolioDescription": "A auctioning and bidding website",
-    "detailDescription1": "A free auctioning site where you can list your items, and bid on other's listings",
-    "portfolioPhoto": "auctions-portfolio.jpg",
-    "detailPhoto": "auctions-detail.jpg",
-    "viewLink": "https://auctions.tonynguyen61.com",
-    "repoLink": "https://github.com/nhhoang-tony/ebay",
+    "id": "email",
+    "portfolioName": "Email Service",
+    "detailName": "Email Service",
+    "portfolioDescription": "An email service",
+    "detailDescription1": "An email service where you can send and receive emails from people within the service",
+    "portfolioPhoto": "email-portfolio.jpg",
+    "detailPhoto": "email-detail.jpg",
+    "viewLink": "https://email.tonynguyen61.com",
+    "repoLink": "https://github.com/nhhoang-tony/Email",
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "AWS" },
@@ -181,12 +181,9 @@
       { "Architecture": "Docker container" }
     ],
     "features": [
-      "List your items",
-      "Bid and comment on other people's listings",
-      "Browse through all available listings",
-      "Search for your favorite items or search by category",
-      "Add listings to your watchlist and follow them",
-      "View all your current biddings"
+      "Send and receive emails",
+      "Archive your emails",
+      "Search and filter your emails in different email lists"
     ]
   }
 ]
