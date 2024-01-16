@@ -94,7 +94,7 @@
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "AWS" },
-      { "Languages": "JavaSript, Python" },
+      { "Languages": "JavaScript, Python" },
       { "Framework": "Django" },
       { "Architecture": "Docker container" }
     ],
@@ -176,7 +176,7 @@
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "AWS" },
-      { "Languages": "JavaSript, Python" },
+      { "Languages": "JavaScript, Python" },
       { "Framework": "Django" },
       { "Architecture": "Docker container" }
     ],
