@@ -181,10 +181,12 @@
       { "Architecture": "Docker container" }
     ],
     "features": [
-      "Sell your items",
+      "List your items",
       "Bid on other people's listings",
-      "Search for your favorite items",
-      "Comments on your favorite items"
+      "Search for your favorite items or search by category",
+      "Comments on other people's listings",
+      "Add listings to your watchlist and follow",
+      "View all your current biddings"
     ]
   }
 ]
