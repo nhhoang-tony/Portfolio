@@ -59,7 +59,7 @@ function ProjectDetailsPage() {
               <div className='mb-6 text-2xl'>
                 The original cloud resume challenge by
                 <Link
-                  className='ml-2 text-[#8feeff] text-2xl transition-colors ease duration-200 hover:text-[#406ab7]'
+                  className='ml-2 text-[#8feeff] text-2xl transition-colors ease duration-200 hover:text-[#406ab7] active:text-[#406ab7]'
                   to='https://cloudresumechallenge.dev/instructions/'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -73,7 +73,7 @@ function ProjectDetailsPage() {
               <div className='mb-6 text-2xl'>
                 For more information, visit
                 <Link
-                  className='ml-2 text-[#8feeff] text-2xl transition-colors ease duration-200 hover:text-[#406ab7]'
+                  className='ml-2 text-[#8feeff] text-2xl transition-colors ease duration-200 hover:text-[#406ab7] active:text-[#406ab7]'
                   to='https://vbreathe.com'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -90,7 +90,7 @@ function ProjectDetailsPage() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button className='mr-8 bg-white h-16 w-32 md:w-36 text-2xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] transition-colors ease duration-200'>
+                  <Button className='mr-8 bg-white h-16 w-32 md:w-36 text-2xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] active:bg-[#406ab7] transition-colors ease duration-200'>
                     <img
                       className='h-16 w-32 md:w-36'
                       src={appStoreImg}
@@ -103,7 +103,7 @@ function ProjectDetailsPage() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button className='bg-white h-16 w-32 md:w-36 text-2xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] transition-colors ease duration-200'>
+                  <Button className='bg-white h-16 w-32 md:w-36 text-2xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] active:bg-[#406ab7] transition-colors ease duration-200'>
                     <img
                       className='h-16 w-32 md:w-36'
                       src={googlePlayImg}
@@ -121,7 +121,7 @@ function ProjectDetailsPage() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button className='mr-8 bg-white border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-[#17161b] rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] transition-colors ease duration-200'>
+                  <Button className='mr-8 bg-white border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-[#17161b] rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] active:bg-[#406ab7] active:border-[#406ab7] transition-colors ease duration-200'>
                     View
                   </Button>
                 </Link>
@@ -130,7 +130,7 @@ function ProjectDetailsPage() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button className='bg-transparent border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] transition-colors ease duration-200'>
+                  <Button className='bg-transparent border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-white rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] active:bg-[#406ab7] active:border-[#406ab7] transition-colors ease duration-200'>
                     Repo
                   </Button>
                 </Link>

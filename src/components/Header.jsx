@@ -6,7 +6,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 
 export default function Header() {
   const buttonClasses =
-    'text-lg sm:text-LG font-[Bricolage Grotesque] cursor-pointer bg-transparent border-none text-[#8feeff] ml-4 transition-colors ease duration-200 hover:text-[#406ab7]';
+    'text-lg sm:text-LG font-[Bricolage Grotesque] cursor-pointer bg-transparent border-none text-[#8feeff] ml-4 transition-colors ease duration-200 hover:text-[#406ab7] active:text-[#406ab7]';
 
   const navigate = useNavigate();
   const [showHamburger, setShowHambuger] = useState(false);
@@ -33,7 +33,7 @@ export default function Header() {
           loading='lazy'
         ></img>
         <h1
-          className='xl sm:text-2xl m-0 font-[Raleway] font-bold text-[#8feeff] tracking-wide uppercase cursor-pointer transition-colors ease duration-200 hover:text-[#406ab7]'
+          className='xl sm:text-2xl m-0 font-[Raleway] font-bold text-[#8feeff] tracking-wide uppercase cursor-pointer transition-colors ease duration-200 hover:text-[#406ab7] active:text-[#406ab7]'
           onClick={navToPortfolio}
         >
           Tony Nguyen

@@ -6,7 +6,7 @@ function Contacts() {
   const contactBodyClasses =
     'ml-2 text-2xl font-medium font-[Bricolage Grotesque] inline-block whitespace-nowrap';
   const hoverText =
-    'text-[#8feeff] hover:text-[#406ab7] transition-colors ease duration-200 cursor-pointer';
+    'text-[#8feeff] hover:text-[#406ab7] active:text-[#406ab7] transition-colors ease duration-200 cursor-pointer';
 
   return (
     <div className='py-12'>

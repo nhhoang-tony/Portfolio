@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Project({ project, classes }) {
   const projectClasses =
-    'cursor-pointer border-solid border-2 border-transparent hover:border-solid hover:border-2 hover:border-[#8feeff] transition-colors ease duration-500' +
+    'cursor-pointer border-solid border-2 border-transparent hover:border-solid hover:border-2 hover:border-[#8feeff] active:border-[#8feeff] transition-colors ease duration-500' +
     ' ' +
     classes;
 
@@ -20,7 +20,7 @@ export default function Project({ project, classes }) {
       <article className='h-full flex flex-col justify-between'>
         <div className='h-[35vh] overflow-hidden'>
           <img
-            className='w-full h-[35vh] object-cover hover:scale-[1.07] transition-transform ease duration-500'
+            className='w-full h-[35vh] object-cover hover:scale-[1.07] active:scale-[1.07] transition-transform ease duration-500'
             src={`/static/img/${project.portfolioPhoto}`}
             loading='lazy'
           ></img>
