@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { NavLink, Link, useNavigate, useParams } from 'react-router-dom';
 import projectsDetails from '../../projects-details.json';
 import ErrorPage from './Error';
 import Button from '../components/UI/Button';
@@ -66,6 +66,19 @@ function ProjectDetailsPage() {
                 >
                   Forrest Brazeal
                 </Link>
+              </div>
+            )}
+
+            {currentProject.id === 'resume' && (
+              <div className='mb-6 text-2xl'>
+                To schedule a tech talk, click
+                <NavLink
+                  to='/meet'
+                  className='ml-2 text-[#8feeff] text-2xl transition-colors ease duration-200 hover:text-[#406ab7] active:text-[#406ab7]'
+                  end
+                >
+                  here
+                </NavLink>
               </div>
             )}
 
