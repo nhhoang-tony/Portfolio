@@ -4,6 +4,7 @@ import RootLayout from './pages/Root';
 import ErrorPage from './pages/Error';
 import ProjectDetailsPage from './pages/ProjectDetails';
 import ContactsPage from './pages/Contacts';
+import MeetPage from './pages/Meet';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: 'contacts',
         element: <ContactsPage></ContactsPage>,
+      },
+      {
+        path: 'meet',
+        element: <MeetPage></MeetPage>,
       },
     ],
   },

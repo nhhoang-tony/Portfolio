@@ -67,7 +67,6 @@ export default function Header() {
           </li>
           <li>
             <div className={buttonClasses}>
-              {' '}
               <NavLink
                 to='/project/resume'
                 className={({ isActive }) => (isActive ? 'text-[#406ab7]' : '')}
@@ -79,13 +78,23 @@ export default function Header() {
           </li>
           <li>
             <div className={buttonClasses}>
-              {' '}
               <NavLink
                 to='/contacts'
                 className={({ isActive }) => (isActive ? 'text-[#406ab7]' : '')}
                 end
               >
                 Contacts
+              </NavLink>
+            </div>
+          </li>
+          <li>
+            <div className={buttonClasses}>
+              <NavLink
+                to='/meet'
+                className={({ isActive }) => (isActive ? 'text-[#406ab7]' : '')}
+                end
+              >
+                Meeting
               </NavLink>
             </div>
           </li>
