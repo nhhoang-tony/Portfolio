@@ -94,7 +94,7 @@ export default function Header() {
                 className={({ isActive }) => (isActive ? 'text-[#406ab7]' : '')}
                 end
               >
-                Meeting
+                Meet
               </NavLink>
             </div>
           </li>
