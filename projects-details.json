@@ -99,15 +99,15 @@
       { "Architecture": "Docker container" }
     ],
     "features": [
-      "Share your thoughts and ideas",
       "Infinite scrolling through posts",
-      "View posts from everyone",
+      "Share your thoughts and ideas",
+      "Animation when adding and removing posts",
+      "Edit and deleting your existing posts",
       "Find and follow your favorite people",
-      "View posts from people you're following only",
+      "View posts from everyone or from people you're following only",
       "View who's following you and who your favorite people are following",
       "Like someone else's posts",
-      "See who like your posts",
-      "See who like the same posts as you"
+      "See who like your posts and who like the same posts as you"
     ]
   },
   {
