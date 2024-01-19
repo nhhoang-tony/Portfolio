@@ -61,7 +61,7 @@
     "detailName": "Tic tac toe",
     "portfolioDescription": "Play tic tac toe against Artificial Intelligence",
     "detailDescription1": "Challenge your friend in an exhilarating battle of tic tac toe",
-    "detailDescription2": "Afternatively, play against the game's AI. The AI is written in Minimax algorithm.",
+    "detailDescription2": "Afternatively, play against the game's AI. The AI is written in Minimax algorithm, which is recursive algorithm used in game theory and decision making to calculate the best move for a player, assuming the other player also plays optimally.",
     "portfolioPhoto": "tictactoe-portfolio.jpg",
     "detailPhoto": "tictactoe-detail.jpg",
     "viewLink": "https://tictactoe.tonynguyen61.com",
