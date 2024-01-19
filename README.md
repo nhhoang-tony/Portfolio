@@ -2,7 +2,7 @@
 
 # <a href="https://resume.tonynguyen61.com" target="_blank" rel="noopener noreferrer">View resume</a>
 
-# A personal portfolio where you can view and use my projects.
+# A portfolio where you can view and use my projects.
 
 ## To run the portfolio locally
 
