@@ -59,9 +59,9 @@
     "id": "tictactoe",
     "portfolioName": "Tic tac toe",
     "detailName": "Tic tac toe",
-    "portfolioDescription": "A well known game of tic tac toe",
-    "detailDescription1": "A well known game of tic tac toe",
-    "detailDescription2": "Challenge your friend in an exhilarating battle of tic tac toe",
+    "portfolioDescription": "Play tic tac toe against Artificial Intelligence",
+    "detailDescription1": "Challenge your friend in an exhilarating battle of tic tac toe",
+    "detailDescription2": "Afternatively, play against the game's AI. The AI is written in Minimax algorithm.",
     "portfolioPhoto": "tictactoe-portfolio.jpg",
     "detailPhoto": "tictactoe-detail.jpg",
     "viewLink": "https://tictactoe.tonynguyen61.com",
@@ -75,6 +75,7 @@
       { "Architecture": "Serverless" }
     ],
     "features": [
+      "Play against the game's AI",
       "Two players game",
       "Select desirable names",
       "Rematch after each game",
@@ -144,7 +145,7 @@
     "portfolioPhoto": "resume-portfolio.jpg",
     "detailPhoto": "resume-detail.jpg",
     "viewLink": "https://resume.tonynguyen61.com",
-    "repoLink": "https://github.com/nhhoang-tony/cloud_resume",
+    "repoLink": "https://github.com/nhhoang-tony/portfolio",
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "AWS, Vercel" },

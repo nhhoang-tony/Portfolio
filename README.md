@@ -1,4 +1,6 @@
-# <a href="https://tonynguyen61.com" target="_blank" rel="noopener noreferrer">Visit</a>
+# <a href="https://tonynguyen61.com" target="_blank" rel="noopener noreferrer">View portfolio</a>
+
+# <a href="https://resume.tonynguyen61.com" target="_blank" rel="noopener noreferrer">View resume</a>
 
 # A personal portfolio where you can view and use my projects.
 
