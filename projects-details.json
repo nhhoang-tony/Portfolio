@@ -57,8 +57,8 @@
   },
   {
     "id": "tictactoe",
-    "portfolioName": "Tic tac toe",
-    "detailName": "Tic tac toe",
+    "portfolioName": "Tic tac toe AI",
+    "detailName": "Tic tac toe AI",
     "portfolioDescription": "Play tic tac toe against AI",
     "detailDescription1": "Challenge your friend in an exhilarating battle of tic tac toe",
     "detailDescription2": "Afternatively, play against the game's AI. The AI is written using Minimax algorithm, a recursive algorithm used in game theory and decision making to calculate the best move for a player, given the other player also plays optimally.",
