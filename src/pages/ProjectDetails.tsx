@@ -154,7 +154,7 @@ function ProjectDetailsPage() {
                     {Object.keys(technology)[0]}
                   </div>
                   <div className='my-2 text-lg text-right'>
-                    {Object.values(technology)[0]}
+                    {Object.values(technology)}
                   </div>
                 </div>
               ))}

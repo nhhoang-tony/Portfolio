@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 
 export default function Project({ project, classes }) {
-  const projectClasses =
+  const projectClasses: string =
     'cursor-pointer border-solid border-2 border-transparent hover:border-solid hover:border-2 hover:border-[#8feeff] active:border-[#8feeff] transition-colors ease duration-500' +
     ' ' +
     classes;
 
-  const navigate = useNavigate();
+  const navigate: any = useNavigate();
 
   function navToProjectDetailsPage(projectPath) {
     navigate(projectPath);

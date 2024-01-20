@@ -69,7 +69,7 @@
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "Vercel" },
-      { "Languages": "JavaScript" },
+      { "Languages": "TypeScript" },
       { "Framework": "React" },
       { "CSS": "Tailwind" },
       { "Architecture": "Serverless" }
@@ -124,7 +124,7 @@
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "Vercel" },
-      { "Languages": "JavaScript" },
+      { "Languages": "TypeScript" },
       { "Framework": "React" },
       { "CSS": "Tailwind" },
       { "Architecture": "Serverless" }
@@ -149,7 +149,7 @@
     "technology": [
       { "Platform": "Web application" },
       { "Cloud services": "AWS, Vercel" },
-      { "Languages": "TypeScript, Python" },
+      { "Languages": "TypeScript, JavaScript, Python" },
       { "Framework": "React" },
       { "CSS": "Tailwind" },
       { "Runtime": "Python3" },

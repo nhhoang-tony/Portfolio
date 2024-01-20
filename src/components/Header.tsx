@@ -5,10 +5,10 @@ import { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 
 export default function Header() {
-  const buttonClasses =
+  const buttonClasses: string =
     'text-lg sm:text-LG font-[Bricolage Grotesque] cursor-pointer bg-transparent border-none text-[#8feeff] ml-4 transition-colors ease duration-200 hover:text-[#406ab7] active:text-[#406ab7]';
 
-  const navigate = useNavigate();
+  const navigate: any = useNavigate();
   const [showHamburger, setShowHambuger] = useState(false);
 
   function handleHamburger() {

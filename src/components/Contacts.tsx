@@ -1,11 +1,11 @@
 import { Link, NavLink } from 'react-router-dom';
 
 function Contacts() {
-  const contactTitleClasses =
+  const contactTitleClasses: string =
     'text-[#ffffff] font-[Raleway] text-lg sm:text-2xl font-bold my-2';
-  const contactBodyClasses =
+  const contactBodyClasses: string =
     'ml-2 text-2xl font-medium font-[Bricolage Grotesque] inline-block whitespace-nowrap';
-  const hoverText =
+  const hoverText: string =
     'text-[#8feeff] hover:text-[#406ab7] active:text-[#406ab7] transition-colors ease duration-200 cursor-pointer';
 
   return (

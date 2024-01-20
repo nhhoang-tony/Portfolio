@@ -6,8 +6,8 @@ function ErrorPage({ customTitle, customMessage }) {
   let title = 'An error occurred';
   let message = 'Something went wrong!';
 
-  if (!customTitle && !customMessage) {
-    const error = useRouteError();
+  if (customTitle === '' && customMessage === '') {
+    const error: any = useRouteError();
 
     if (error.status === 500) {
       message = error.data.message;
