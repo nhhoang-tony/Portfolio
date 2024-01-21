@@ -70,7 +70,7 @@ function Contacts() {
         </p>
         <p className='text-center my-4'>
           <NavLink to='/meet' end>
-            <button className='mr-8 bg-white border-solid border-[4px] border-white h-16 w-32 md:w-36 text-xl text-[#17161b] rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] active:bg-[#406ab7] active:border-[#406ab7] transition-colors ease duration-200'>
+            <button className='mr-8 bg-white border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-[#17161b] rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] active:bg-[#406ab7] active:border-[#406ab7] transition-colors ease duration-200'>
               Meet
             </button>
           </NavLink>
