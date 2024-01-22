@@ -10,8 +10,8 @@ function RootLayout() {
       <main>
         <Outlet></Outlet>
         <ScrollToTop></ScrollToTop>
-        <Analytics></Analytics>
       </main>
+      <Analytics></Analytics>
     </>
   );
 }
