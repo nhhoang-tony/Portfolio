@@ -5,6 +5,7 @@ import ErrorPage from './Error';
 import Button from '../components/UI/Button';
 import appStoreImg from '../assets/app-store.svg';
 import googlePlayImg from '../assets/google-play.svg';
+import { getVisit } from '../util/viewCount';
 
 function ProjectDetailsPage() {
   let projectClasses =
@@ -21,6 +22,16 @@ function ProjectDetailsPage() {
       navigate('/project/resume');
     }
   });
+
+  function handleViewProject(project: string) {
+    const website = project.split('//')[1];
+    if (
+      website !== 'resume.tonynguyen61.com' &&
+      website !== 'rusticcafe.com.au'
+    ) {
+      getVisit(website);
+    }
+  }
 
   return (
     <>
@@ -121,7 +132,10 @@ function ProjectDetailsPage() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button className='mr-8 bg-white border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-[#17161b] rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] active:bg-[#406ab7] active:border-[#406ab7] transition-colors ease duration-200'>
+                  <Button
+                    className='mr-8 bg-white border-solid border-[4px] border-white h-16 w-32 md:w-36 text-3xl text-[#17161b] rounded-xl cursor-pointer hover:bg-[#406ab7] hover:border-[#406ab7] active:bg-[#406ab7] active:border-[#406ab7] transition-colors ease duration-200'
+                    onClick={() => handleViewProject(currentProject.viewLink)}
+                  >
                     View
                   </Button>
                 </Link>
